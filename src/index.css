@@ -94,13 +94,16 @@
     @apply container px-5 md:px-8 mx-auto ;
 }
 .sub-title{
-    @apply font-arial text-white text-lg line-clamp-1;
+    @apply font-arial text-white text-lg uppercase;
+}
+.section-title{
+    @apply font-cygun font-bold lg:text-6xl md:text-5xl text-4xl text-white lg:leading-16 md:leading-15 leading-12 lg:pb-10 pb-6;
 }
 .card-title{
-    @apply font-cygun text-white text-2xl md:text-4xl line-clamp-1 opacity-60 hover:opacity-100 text-center;
+    @apply font-cygun text-white text-2xl md:text-4xl line-clamp-1 opacity-60 hover:opacity-100 text-center z-[2];
 }
 .card-discription{
-    @apply font-arial text-white text-sm md:text-lg line-clamp-3 text-center py-5;
+    @apply font-arial text-white text-sm md:text-lg line-clamp-3 text-center py-5 z-[2];
 }
 
 .card-overlay::before{
@@ -126,7 +129,7 @@
 }
 
 .button-animate{
-    @apply px-7 py-3 bg-[#ba00fb20] text-white cursor-pointer relative overflow-hidden inline-block justify-center font-cygun rounded-xs text-2xl;
+    @apply px-7 py-3 bg-[#ba00fb20] hover:bg-[#ba00fb40] text-white cursor-pointer relative overflow-hidden inline-block justify-center font-cygun rounded-xs text-2xl;
 }
 .button-animate p{
     background: linear-gradient(108deg, #fff 3.7%, #c66ae6 93.42%);
@@ -137,4 +140,21 @@
 
 .button-animate{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+}
+
+
+.tokyo-city {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
