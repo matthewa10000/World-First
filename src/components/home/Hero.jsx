@@ -6,7 +6,7 @@ import backgoundImage from '../../../public/assets/images/hud.gif'
 
 const Hero = () => {
   return (
-    <div id='hero relative h-screen w-screen'>
+    <div id='hero' className='relative h-screen w-screen'>
       <div className='content-wrap w-screen h-screen flex items-center z-10 relative'>
         <h1 className='font-cygun text-white md:text-8xl text-5xl max-w-4xl'>World’s First Reward Driven Gamification Hub</h1>
       </div>
