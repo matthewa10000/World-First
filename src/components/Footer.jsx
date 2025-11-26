@@ -43,7 +43,7 @@ const Footer = () => {
                             <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://www.youtube.com/@Me3Labs"><IconYoutube /></a>
                             <a className='text-[#C588F9] text-2xl lg:text-4xl' href="mailto:info@me3.io"><IconMail /></a>
                         </div>
-                        <p className='sub-title pt-3 lg:text-right'>© 2024 ME3 LABS INC | ALL RIGHTS RESERVED</p>
+                        <p className='sub-title pt-3 lg:text-right'>© 2025 ME3 LABS INC | ALL RIGHTS RESERVED</p>
                     </div>
                 </div>
                 <div className='bg-[url("../../public/assets/images/footer-bar.svg")] bg-no-repeat bg-contain w-full h-2.5 md:mt-16 mt-8 mb-8'>
