@@ -24,9 +24,9 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='flex items-center justify-start gap-4 my-4'>
-                            <a href="https://projects.assuredefi.com/project/me3"><img className='h-10' src='../../public/assets/images/footer1.svg' alt="footer1" type='svg' /></a>
-                            <a href="https://github.com/0xGuard-com/audit-reports/blob/master/Me3/Me3.pdf"><img className='h-10' src='/public/assets/images/footer2.webp' alt="footer2" type='pdf' /></a>
-                            <a href="https://bscscan.com/token/0x42b4daa9210102707373f4618852f926a4150277"><img className='h-10' src='/public/assets/images/footer3.svg' alt="footer3" type='svg' /></a>
+                            <a href="https://projects.assuredefi.com/project/me3"><img className='h-10' src='/public/assets/images/footer-img-one.svg' alt="footer-img-one" type='svg' /></a>
+                            <a href="https://github.com/0xGuard-com/audit-reports/blob/master/Me3/Me3.pdf"><img className='h-10' src='/public/assets/images/footer-image-two.webp' alt="footer-image-two" type='pdf' /></a>
+                            <a href="https://bscscan.com/token/0x42b4daa9210102707373f4618852f926a4150277"><img className='h-10' src='/public/assets/images/footer_image_three.svg' alt="footer_image_three" type='svg' /></a>
                         </div>
                     </div>
                     <div className='w-full md:w-4/12'>
