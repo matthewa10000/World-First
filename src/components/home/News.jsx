@@ -1,11 +1,15 @@
 import React from 'react'
+import TwitterGridTest from '../TwitterGridTest'
 
 const News = () => {
     return (
         <div id='news'>
-            <div className='content-wrap pt-16'>
-                <h3 className='sub-title pb-5 text-center'><a href="https://x.com/Me3Labs">News</a></h3>
-                <h2 className='section-title text-center'><a href="https://x.com/Me3Labs">Latest Updates</a></h2>
+            <div className='content-wrap py-36'>
+                <div className='content-wrap pt-16'>
+                    <h3 className='sub-title pb-5 text-center'>News</h3>
+                    <h2 className='section-title text-center'>Latest Updates</h2>
+                </div>
+                <TwitterGridTest />
             </div>
         </div>
     )

@@ -9,6 +9,7 @@ import VideoFrame from '../components/home/VideoFrame'
 import Token from '../components/home/Token'
 import Partners from '../components/home/Partners'
 import News from '../components/home/News'
+import TwitterGridTest from '../components/TwitterGridTest'
 
 const Home = () => {
   return (
