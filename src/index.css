@@ -216,3 +216,7 @@
 .hambargar_menu.active .bar-3{
     transform: translateX(10px);
 }
+
+html {
+    scroll-behavior: smooth;
+}

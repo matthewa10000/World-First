@@ -17,9 +17,9 @@ const Home = () => {
       <div className='' style={{ backgroundImage: `url(${backgound})`, backgroundSize: 'contain', backgroundPosition: '0' }}>
         <Galaxy />
         <Tokyo />
-        <Journey />
+        {/* <Journey /> */}
         <VideoFrame />
-        <Token />
+        {/* <Token /> */}
         <Partners data={PARTNERS_DATA} />
         <Partners data={INVESTORS_DATA} />
         <News />

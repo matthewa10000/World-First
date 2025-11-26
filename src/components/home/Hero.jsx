@@ -19,7 +19,7 @@ const Hero = () => {
         type="video/mp4"
       />
       <div className='absolute top-0 left-0 h-screen w-full object-cover z-[-1]'>
-        <img className='w-screen h-screen object-auto' src={backgoundImage} alt="" />
+        <img className='w-screen h-screen object-auto opacity-40' src={backgoundImage} alt="" />
       </div>
     </div>
   )

@@ -1,10 +1,11 @@
 import React from "react";
 
-const Button = ({ text, link = "#", className = "", animation = false }) => {
+const Button = ({ text, link = "#", className = "", animation = false, target = '_blank' }) => {
     return (
         <a
             href={link}
             className={`button-animate inline-block cursor-pointer px-4 py-2 rounded-md font-medium ${className}`}
+            target={target}
         >
             {animation && (
                 <>

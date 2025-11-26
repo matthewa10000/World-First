@@ -51,7 +51,11 @@ const Header = () => {
                 <div className={` heard_menu fixed left-0 h-full w-full bg-[#ff36d7] flex justify-center items-center -top-full ${isMenuOpen ? 'active' : ''}`}>
                     <div className='menu_wraper'>
                         <div className='header_menu-inner'></div>
-                        <Menu Menus={MENU_DATA} />
+                        <Menu Menus={MENU_DATA} closeMenu={() => {
+                            setIsMenuOpen(false);
+                            document.body.style.overflow = 'auto';
+                            console.log('close in header')
+                        }} />
                     </div>
                 </div>
             </div>

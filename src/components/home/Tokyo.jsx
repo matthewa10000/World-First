@@ -14,12 +14,16 @@ const Tokyo = () => {
                     <div className='flex md:flex-row flex-col gap-5 items-start'>
                         <Button
                             text="PLAY"
-                            link="#"
+                            link="https://gachagalaxy.me3.io/"
                             animation={true}
+                            target={true}
                         />
 
                         <Button
                             text="Partner With Us"
+                            link='https://airtable.com/appZ8JrBCaa4Rvqk2/pag0Qf6ueTbRVqgqg/form'
+                            target={true}
+
                         />
                     </div>
                 </div>

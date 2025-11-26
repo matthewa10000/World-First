@@ -18,26 +18,26 @@ const Footer = () => {
                         <div className='flex flex-row flex-wrap items-center justify-start gap-3'>
                             <img className='w-[140px] block' src="../../public/assets/images/logo.webp" alt="logo" />
                             <div className='flex flex-row flex-wrap items-center justify-start gap-3'>
-                                <a className='hover:underline text-arial text-sm leading-6' href="#">Terms of Use</a>
-                                <a className='hover:underline text-arial text-sm leading-6' href="#">Privacy Policy</a>
-                                <a className='hover:underline text-arial text-sm leading-6' href="#">Risk Disclaimers & Disclosure</a>
+                                <a className='hover:underline text-arial text-sm leading-6' href="https://help.me3.io/en/articles/9245378-terms-of-use">Terms of Use</a>
+                                <a className='hover:underline text-arial text-sm leading-6' href="https://help.me3.io/en/articles/9245363-privacy-policy">Privacy Policy</a>
+                                <a className='hover:underline text-arial text-sm leading-6' href="https://help.me3.io/en/articles/9245321-risk-disclaimers-disclosures">Risk Disclaimers & Disclosure</a>
                             </div>
                         </div>
                         <div className='flex items-center justify-start gap-4 my-4'>
-                            <a href="#"><img className='h-10' src='../../public/assets/images/footer1.svg' alt="footer1" /></a>
-                            <a href="#"><img className='h-10' src='../../public/assets/images/footer2.webp' alt="footer2" /></a>
-                            <a href="#"><img className='h-10' src='../../public/assets/images/footer3.svg' alt="footer3" /></a>
+                            <a href="https://projects.assuredefi.com/project/me3"><img className='h-10' src='../../public/assets/images/footer1.svg' alt="footer1" /></a>
+                            <a href="https://github.com/0xGuard-com/audit-reports/blob/master/Me3/Me3.pdf"><img className='h-10' src='../../public/assets/images/footer2.webp' alt="footer2" /></a>
+                            <a href="https://bscscan.com/token/0x42b4daa9210102707373f4618852f926a4150277"><img className='h-10' src='../../public/assets/images/footer3.svg' alt="footer3" /></a>
                         </div>
                     </div>
                     <div className='w-full md:w-4/12'>
                         <div className='flex items-center gap-3'>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconTwitter /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconTelegram /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconDiscord /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconHelp /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconGithub /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconYoutube /></a>
-                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="#"><IconMail /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://x.com/Me3Labs"><IconTwitter /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://t.me/Me3Official"><IconTelegram /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://discord.com/invite/me3labs"><IconDiscord /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://help.me3.io/en/"><IconHelp /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://github.com/Me3-io"><IconGithub /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="https://www.youtube.com/@Me3Labs"><IconYoutube /></a>
+                            <a className='text-[#C588F9] text-2xl lg:text-4xl' href="mailto:info@me3.io"><IconMail /></a>
                         </div>
                         <p className='sub-title pt-3'>© 2024 ME3 LABS INC | ALL RIGHTS RESERVED</p>
                     </div>
